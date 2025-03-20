@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+#container{
+    width: auto;
+    overflow: hidden;
+    background-color: antiquewhite; 
+}
+#logo{
+    width: auto;
+    height: 50px;
+    background-color:darkgoldenrod;
+}
+#rectangle{
+    display: flex;
+    background-color: blue;
+    overflow: hidden;
+}
+#rectangle-left{
+    float: left;
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+}
+.square{
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin:5px;
+    background-color: black;
+}
+#rectangle-right{
+    flex: 1;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#content-rec{
+    display: flex;
+    flex: 1;
+}
+#title-rec{
+    width: 100%;
+    background-color: crimson;
+    height: 50px;
+}
+#des-rec{
+    width: 80%;
+    height: auto;
+    background-color: cyan;
+    flex: 4;
+}
+#pic-rec{
+    width: 20%;
+    height: auto;
+    background-color: darkolivegreen;
+    flex: 1;
+}
+.buy-square{
+    width: 100%;
+    height: 30px;
+    background-color: darkorange;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#footer{
+    clear: both;
+    width: auto;
+    height: 50px;
+    background-color: brown;
+}
